@@ -1,6 +1,8 @@
 # CycleGAN
 Uses two GANs to perform unpaired image set to image set translation
 
+The GANs are both DCGANs which means that the generators and discriminators are built with convolutional neural networks. 
+
 One GAN is trained to take images from setA as input as produce images that fit the distribution of setB and vice versa for the other. 
 
 Loss is calculated by 
