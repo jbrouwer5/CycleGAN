@@ -8,3 +8,6 @@ Loss is calculated by
 - seeing if the discriminators were correct in their guesses
 - also feeding the output of each generator to the other generator and calculating loss for those in order to create a "closed loop" effect where the output should be the same as the original. 
 
+If given a dataset with paintings by Monet and a dataset with photographs, the output should be like this. 
+
+<img width="222" alt="image" src="https://user-images.githubusercontent.com/63489213/229849451-56cae4c9-ce5d-4f48-8bf7-8dabf8e48a0b.png">
